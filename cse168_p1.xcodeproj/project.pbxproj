@@ -7,8 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF4662CE171DE35B0038BFB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4662CD171DE35B0038BFB6 /* main.cpp */; };
-		BF4662D0171DE35B0038BFB6 /* cse168_p1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF4662CF171DE35B0038BFB6 /* cse168_p1.1 */; };
+		BF4662D7171DE36E0038BFB6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4662D6171DE36E0038BFB6 /* OpenGL.framework */; };
+		BF4662D9171DE3750038BFB6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4662D8171DE3750038BFB6 /* GLUT.framework */; };
+		BFAE0C4E171DE410000E923C /* BLPatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C2B171DE410000E923C /* BLPatch.cpp */; };
+		BFAE0C4F171DE410000E923C /* BVH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C2D171DE410000E923C /* BVH.cpp */; };
+		BFAE0C50171DE410000E923C /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C2F171DE410000E923C /* Camera.cpp */; };
+		BFAE0C51171DE410000E923C /* Console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C31171DE410000E923C /* Console.cpp */; };
+		BFAE0C52171DE410000E923C /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C33171DE410000E923C /* Image.cpp */; };
+		BFAE0C53171DE410000E923C /* Lambert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C35171DE410000E923C /* Lambert.cpp */; };
+		BFAE0C54171DE410000E923C /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C38171DE410000E923C /* Makefile */; };
+		BFAE0C55171DE410000E923C /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C39171DE410000E923C /* Material.cpp */; };
+		BFAE0C56171DE410000E923C /* MiroWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C3D171DE410000E923C /* MiroWindow.cpp */; };
+		BFAE0C57171DE410000E923C /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C43171DE410000E923C /* Scene.cpp */; };
+		BFAE0C58171DE410000E923C /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C45171DE410000E923C /* Sphere.cpp */; };
+		BFAE0C59171DE410000E923C /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C47171DE410000E923C /* Triangle.cpp */; };
+		BFAE0C5A171DE410000E923C /* TriangleMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C49171DE410000E923C /* TriangleMesh.cpp */; };
+		BFAE0C5B171DE410000E923C /* TriangleMeshLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C4B171DE410000E923C /* TriangleMeshLoad.cpp */; };
+		BFAE0C66171DE6CA000E923C /* assignment1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C5E171DE6CA000E923C /* assignment1.cpp */; };
+		BFAE0C67171DE6CA000E923C /* Perlin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C60171DE6CA000E923C /* Perlin.cpp */; };
+		BFAE0C68171DE6CA000E923C /* PFMLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C62171DE6CA000E923C /* PFMLoader.cpp */; };
+		BFAE0C69171DE6CA000E923C /* Worley.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE0C64171DE6CA000E923C /* Worley.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +36,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				BF4662D0171DE35B0038BFB6 /* cse168_p1.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -26,8 +43,52 @@
 
 /* Begin PBXFileReference section */
 		BF4662CA171DE35B0038BFB6 /* cse168_p1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cse168_p1; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4662CD171DE35B0038BFB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		BF4662CF171DE35B0038BFB6 /* cse168_p1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cse168_p1.1; sourceTree = "<group>"; };
+		BF4662D6171DE36E0038BFB6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		BF4662D8171DE3750038BFB6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		BFAE0C2B171DE410000E923C /* BLPatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BLPatch.cpp; sourceTree = "<group>"; };
+		BFAE0C2C171DE410000E923C /* BLPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPatch.h; sourceTree = "<group>"; };
+		BFAE0C2D171DE410000E923C /* BVH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BVH.cpp; sourceTree = "<group>"; };
+		BFAE0C2E171DE410000E923C /* BVH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVH.h; sourceTree = "<group>"; };
+		BFAE0C2F171DE410000E923C /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		BFAE0C30171DE410000E923C /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		BFAE0C31171DE410000E923C /* Console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Console.cpp; sourceTree = "<group>"; };
+		BFAE0C32171DE410000E923C /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+		BFAE0C33171DE410000E923C /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
+		BFAE0C34171DE410000E923C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		BFAE0C35171DE410000E923C /* Lambert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lambert.cpp; sourceTree = "<group>"; };
+		BFAE0C36171DE410000E923C /* Lambert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lambert.h; sourceTree = "<group>"; };
+		BFAE0C37171DE410000E923C /* Makedefs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makedefs; sourceTree = "<group>"; };
+		BFAE0C38171DE410000E923C /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BFAE0C39171DE410000E923C /* Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Material.cpp; sourceTree = "<group>"; };
+		BFAE0C3A171DE410000E923C /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		BFAE0C3B171DE410000E923C /* Matrix4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4x4.h; sourceTree = "<group>"; };
+		BFAE0C3C171DE410000E923C /* Miro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Miro.h; sourceTree = "<group>"; };
+		BFAE0C3D171DE410000E923C /* MiroWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiroWindow.cpp; sourceTree = "<group>"; };
+		BFAE0C3E171DE410000E923C /* MiroWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiroWindow.h; sourceTree = "<group>"; };
+		BFAE0C3F171DE410000E923C /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		BFAE0C40171DE410000E923C /* OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGL.h; sourceTree = "<group>"; };
+		BFAE0C41171DE410000E923C /* PointLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointLight.h; sourceTree = "<group>"; };
+		BFAE0C42171DE410000E923C /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		BFAE0C43171DE410000E923C /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		BFAE0C44171DE410000E923C /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		BFAE0C45171DE410000E923C /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		BFAE0C46171DE410000E923C /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		BFAE0C47171DE410000E923C /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		BFAE0C48171DE410000E923C /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		BFAE0C49171DE410000E923C /* TriangleMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangleMesh.cpp; sourceTree = "<group>"; };
+		BFAE0C4A171DE410000E923C /* TriangleMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleMesh.h; sourceTree = "<group>"; };
+		BFAE0C4B171DE410000E923C /* TriangleMeshLoad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangleMeshLoad.cpp; sourceTree = "<group>"; };
+		BFAE0C4C171DE410000E923C /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3.h; sourceTree = "<group>"; };
+		BFAE0C4D171DE410000E923C /* Vector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector4.h; sourceTree = "<group>"; };
+		BFAE0C5E171DE6CA000E923C /* assignment1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assignment1.cpp; sourceTree = "<group>"; };
+		BFAE0C5F171DE6CA000E923C /* assignment1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assignment1.h; sourceTree = "<group>"; };
+		BFAE0C60171DE6CA000E923C /* Perlin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Perlin.cpp; sourceTree = "<group>"; };
+		BFAE0C61171DE6CA000E923C /* Perlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Perlin.h; sourceTree = "<group>"; };
+		BFAE0C62171DE6CA000E923C /* PFMLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PFMLoader.cpp; sourceTree = "<group>"; };
+		BFAE0C63171DE6CA000E923C /* PFMLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMLoader.h; sourceTree = "<group>"; };
+		BFAE0C64171DE6CA000E923C /* Worley.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Worley.cpp; sourceTree = "<group>"; };
+		BFAE0C65171DE6CA000E923C /* Worley.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worley.h; sourceTree = "<group>"; };
+		BFAE0C6B171DF193000E923C /* bunny.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bunny.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4662D9171DE3750038BFB6 /* GLUT.framework in Frameworks */,
+				BF4662D7171DE36E0038BFB6 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +107,8 @@
 		BF4662C1171DE35B0038BFB6 = {
 			isa = PBXGroup;
 			children = (
+				BF4662D8171DE3750038BFB6 /* GLUT.framework */,
+				BF4662D6171DE36E0038BFB6 /* OpenGL.framework */,
 				BF4662CC171DE35B0038BFB6 /* cse168_p1 */,
 				BF4662CB171DE35B0038BFB6 /* Products */,
 			);
@@ -60,8 +125,50 @@
 		BF4662CC171DE35B0038BFB6 /* cse168_p1 */ = {
 			isa = PBXGroup;
 			children = (
-				BF4662CD171DE35B0038BFB6 /* main.cpp */,
-				BF4662CF171DE35B0038BFB6 /* cse168_p1.1 */,
+				BFAE0C6B171DF193000E923C /* bunny.obj */,
+				BFAE0C5E171DE6CA000E923C /* assignment1.cpp */,
+				BFAE0C5F171DE6CA000E923C /* assignment1.h */,
+				BFAE0C60171DE6CA000E923C /* Perlin.cpp */,
+				BFAE0C61171DE6CA000E923C /* Perlin.h */,
+				BFAE0C62171DE6CA000E923C /* PFMLoader.cpp */,
+				BFAE0C63171DE6CA000E923C /* PFMLoader.h */,
+				BFAE0C64171DE6CA000E923C /* Worley.cpp */,
+				BFAE0C65171DE6CA000E923C /* Worley.h */,
+				BFAE0C2B171DE410000E923C /* BLPatch.cpp */,
+				BFAE0C2C171DE410000E923C /* BLPatch.h */,
+				BFAE0C2D171DE410000E923C /* BVH.cpp */,
+				BFAE0C2E171DE410000E923C /* BVH.h */,
+				BFAE0C2F171DE410000E923C /* Camera.cpp */,
+				BFAE0C30171DE410000E923C /* Camera.h */,
+				BFAE0C31171DE410000E923C /* Console.cpp */,
+				BFAE0C32171DE410000E923C /* Console.h */,
+				BFAE0C33171DE410000E923C /* Image.cpp */,
+				BFAE0C34171DE410000E923C /* Image.h */,
+				BFAE0C35171DE410000E923C /* Lambert.cpp */,
+				BFAE0C36171DE410000E923C /* Lambert.h */,
+				BFAE0C37171DE410000E923C /* Makedefs */,
+				BFAE0C38171DE410000E923C /* Makefile */,
+				BFAE0C39171DE410000E923C /* Material.cpp */,
+				BFAE0C3A171DE410000E923C /* Material.h */,
+				BFAE0C3B171DE410000E923C /* Matrix4x4.h */,
+				BFAE0C3C171DE410000E923C /* Miro.h */,
+				BFAE0C3D171DE410000E923C /* MiroWindow.cpp */,
+				BFAE0C3E171DE410000E923C /* MiroWindow.h */,
+				BFAE0C3F171DE410000E923C /* Object.h */,
+				BFAE0C40171DE410000E923C /* OpenGL.h */,
+				BFAE0C41171DE410000E923C /* PointLight.h */,
+				BFAE0C42171DE410000E923C /* Ray.h */,
+				BFAE0C43171DE410000E923C /* Scene.cpp */,
+				BFAE0C44171DE410000E923C /* Scene.h */,
+				BFAE0C45171DE410000E923C /* Sphere.cpp */,
+				BFAE0C46171DE410000E923C /* Sphere.h */,
+				BFAE0C47171DE410000E923C /* Triangle.cpp */,
+				BFAE0C48171DE410000E923C /* Triangle.h */,
+				BFAE0C49171DE410000E923C /* TriangleMesh.cpp */,
+				BFAE0C4A171DE410000E923C /* TriangleMesh.h */,
+				BFAE0C4B171DE410000E923C /* TriangleMeshLoad.cpp */,
+				BFAE0C4C171DE410000E923C /* Vector3.h */,
+				BFAE0C4D171DE410000E923C /* Vector4.h */,
 			);
 			path = cse168_p1;
 			sourceTree = "<group>";
@@ -117,7 +224,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4662CE171DE35B0038BFB6 /* main.cpp in Sources */,
+				BFAE0C4E171DE410000E923C /* BLPatch.cpp in Sources */,
+				BFAE0C4F171DE410000E923C /* BVH.cpp in Sources */,
+				BFAE0C50171DE410000E923C /* Camera.cpp in Sources */,
+				BFAE0C51171DE410000E923C /* Console.cpp in Sources */,
+				BFAE0C52171DE410000E923C /* Image.cpp in Sources */,
+				BFAE0C53171DE410000E923C /* Lambert.cpp in Sources */,
+				BFAE0C54171DE410000E923C /* Makefile in Sources */,
+				BFAE0C55171DE410000E923C /* Material.cpp in Sources */,
+				BFAE0C56171DE410000E923C /* MiroWindow.cpp in Sources */,
+				BFAE0C57171DE410000E923C /* Scene.cpp in Sources */,
+				BFAE0C58171DE410000E923C /* Sphere.cpp in Sources */,
+				BFAE0C59171DE410000E923C /* Triangle.cpp in Sources */,
+				BFAE0C5A171DE410000E923C /* TriangleMesh.cpp in Sources */,
+				BFAE0C5B171DE410000E923C /* TriangleMeshLoad.cpp in Sources */,
+				BFAE0C66171DE6CA000E923C /* assignment1.cpp in Sources */,
+				BFAE0C67171DE6CA000E923C /* Perlin.cpp in Sources */,
+				BFAE0C68171DE6CA000E923C /* PFMLoader.cpp in Sources */,
+				BFAE0C69171DE6CA000E923C /* Worley.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +340,7 @@
 				BF4662D5171DE35B0038BFB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
